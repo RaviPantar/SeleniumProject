@@ -1,0 +1,31 @@
+python -m py_compile DataTypes.Py
+
+TypeError:Occurs when expected type doesnót match with the given type of variable
+ValueError:When expected value is not given.if you are expecting 4 elements in list and you gave 2
+NameError:When trying to access a variable or function that is not defined.
+IOError:When trying to access file that doesn't exist
+IndexError:Accesing invalid index of a sequence will throw index error
+KeyError: when invalid key is used to access a value in the dictionary
+
+cx-Oracle to connect database
+con=cx.Oracle.connect()
+cur=con.cursor()
+cur.execute("query")
+
+openpyxl
+
+wb=openpyxl.load_workbook("C:\\Users\\USER\\Desktop\\Data.xlsx")
+sheets=wb.sheetnames
+wb.active.sheet #return sheet name which is active
+sh1=wb['name']
+
+sh1['B2'].value
+
+# specify which cell to read
+wb['name']['B2'].value
+
+sh1.cell(3,2)
+
+from random import shuffle
+
+open(filene,mode)  r w a

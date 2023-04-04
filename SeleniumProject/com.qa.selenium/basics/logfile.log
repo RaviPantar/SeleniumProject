@@ -1,0 +1,4 @@
+2023-03-29 12:36:27,050 :INFO : basics.test_Logging :this is info
+2023-03-29 12:36:27,050 :ERROR : basics.test_Logging :this is error
+2023-03-29 12:36:27,050 :WARNING : basics.test_Logging :this is warning
+2023-03-29 12:36:27,050 :CRITICAL : basics.test_Logging :this is critical
