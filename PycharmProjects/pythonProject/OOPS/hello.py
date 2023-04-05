@@ -1,5 +1,5 @@
-def hello(a,b):
-    print(a+b)
+def hello(a, b, c):
+    print(a + b + c)
 
-hello(2,2)
 
+hello(2, 2, 5)
